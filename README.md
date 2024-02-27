@@ -15,11 +15,11 @@ Un patrón de diseño debe tener 3 características principales:
 
 La patrones de diseño se clasifican en 3 tipos dependiendo del problema que resuelven.
 
-Creacionales: Se enfocan en crear una sola instancia de una clase y proveer un solo punto de acceso en toda la aplicación.
+**Creacionales:** Se enfocan en crear una sola instancia de una clase y proveer un solo punto de acceso en toda la aplicación.
 
-Estructurales: Se enfocan en cómo las clases y los objetos se componen para formar estructuras mas complejas.
+**Estructurales:** Se enfocan en cómo las clases y los objetos se componen para formar estructuras mas complejas.
 
-De comportamiento: Se enfocan en como las clases y los objetos se comunican entre sí, haciendo el menor uso posible.
+**De comportamiento:** Se enfocan en como las clases y los objetos se comunican entre sí, haciendo el menor uso posible.
 
 |Tipo de patrón|Patrones mas usados|Descripción|
 |-|-|-|
