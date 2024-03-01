@@ -4,9 +4,9 @@ module Sujeto
     @observadores = []
   end
 
-  def notificar_observadores
+  def notificar_observadores(tipo)
     @observadores.each do |observador|
-      observador.actualizar_salario self
+      observador.actualizar_empleado(self, tipo)
     end
   end
 

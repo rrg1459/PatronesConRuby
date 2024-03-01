@@ -1,4 +1,4 @@
-puts "\nObserver(aprendiendo)"
+puts "\nObserver"
 puts   "--------\n\n"
 ##
 

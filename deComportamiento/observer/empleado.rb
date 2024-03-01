@@ -16,11 +16,11 @@ class Empleado
 
   def salario=(nuevo_salario)
     @salario = nuevo_salario
-    notificar_observadores
+    notificar_observadores("salario")
   end
 
   def titulo=(nuevo_titulo)
     @titulo = nuevo_titulo
-    notificar_observadores
+    notificar_observadores("titulo")
   end
 end
