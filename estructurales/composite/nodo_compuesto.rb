@@ -21,7 +21,7 @@ class NodoCompuesto < Componente
 
   def operacion
     puts "Ejecutando operación en el nodo compuesto --> #{@nombre}"
-    # @componentes.each(&:operacion)
+    @componentes.each(&:operacion)
   end
 
 end
